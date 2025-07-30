@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://backend-ovff.onrender.com',
+  baseURL: 'https://bookswap-backend-9szg.onrender.com',
 });
 
 API.interceptors.request.use((req) => {
